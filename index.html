@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coding from scratch final project</title>
+    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&ampdisplay=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+    <link rel="stylesheet" text="text/css" href="style.css">
+  </head>
+<h1>Let's Create an ID card!</h1>
+<body>
+  <label>First Name:</label><br>
+  <input id="firstName" type="text"/><br>
+  <label>Last Name:</label><br>
+  <input id="lastName" type="text"/><br>
+  <label>Age:</label><br>
+  <input id="age" type="number"/><br>
+  <label>Phone Number:</label><br>
+  <input id="phoneNumber" type="number"/><br>
+  <label>Address:</label><br>
+  <input id="address" type="text"/><br>
+  <div><br>
+  <button onclick=idCard()>Get ID Card</button>
+  </div>
+<div id="idCard">
+  <img id="image" src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg"><br>
+    <p id="PostFullName" class="top"> </p>
+    <p id="PostAge" class="middle"></p>
+    <p id="PostPhoneNumber" class="middle"></p>
+    <p id="PostAddress" class="middle"></p>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

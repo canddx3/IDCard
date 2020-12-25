@@ -1,0 +1,33 @@
+body{
+  background-color: blue;
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+  color:black;
+}
+#idCard {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: magenta;
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+  border: 5px solid black;
+  border-radius: 25px;
+  height: 14em;
+  width: 25em;
+}
+#image{
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+.top{
+  text-align: center;
+  font-size: 30px
+}
+.middle{
+  text-align: left;
+}
